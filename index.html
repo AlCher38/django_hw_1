@@ -211,7 +211,7 @@
                     <svg class="bi me-2" width="16" height="16">
                         <use xlink:href="#home"/>
                     </svg>
-                    Главная
+                    Главная СУПЕР сайта
                 </a>
             </li>
             <li>
@@ -261,14 +261,14 @@
     <div class="container">
         <header>
             <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-                <h1 class="display-4 fw-normal text-body-emphasis">Главная</h1>
-                <p class="fs-5 text-body-secondary">Вы находитесь на сайте, предназначенном для продажи товаров</p>
+                <h1 class="display-4 fw-normal text-body-emphasis">Главная страница СУПЕР МАГАЗИНА</h1>
+                <p class="fs-5 text-body-secondary">Вы находитесь на СУПЕР сайте, предназначенном для продажи СУПЕР товаров</p>
             </div>
         </header>
 
         <main class="row">
             <div class="row text-center">
-                <div class="col-6">
+                <div class="col-4">
                     <div class="card mb-4 rounded-3 shadow-sm">
                         <div class="card-header py-3">
                             <h4 class="my-0 fw-normal">Товар 1</h4>
@@ -281,70 +281,119 @@
                                 Email support,
                                 Help center access
                             </p>
-                            <button type="button" class="w-100 btn btn-lg btn-outline-primary btn-success">Купить</button>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">Оставьте заявку</h3>
-                            <form>
-                                <div class="mb-3">
-                                    <label for="exampleInputName" class="form-label">Имя</label>
-                                    <input name="name" type="text" class="form-control" id="exampleInputName"
-                                           aria-describedby="emailHelp">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">Email адрес</label>
-                                    <input name="email" type="email" class="form-control" id="exampleInputEmail1">
-                                </div>
-                                <button type="submit" class="btn btn-primary">Отправить</button>
-                            </form>
+                            <button type="button" class="btn btn-success">Купить</button>
                         </div>
                     </div>
                 </div>
-                <div class="col-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <h3 class="card-title">FAQ</h3>
-                            <p class="d-inline-flex gap-1">
-                                <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1"
-                                   role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Как купить?</a>
-                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#multiCollapseExample2" aria-expanded="false"
-                                        aria-controls="multiCollapseExample2">Как доставить?
-                                </button>
-                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                                        data-bs-target=".multi-collapse" aria-expanded="false"
-                                        aria-controls="multiCollapseExample1 multiCollapseExample2">Какая гарантия?
-                                </button>
-                            </p>
-                            <div class="row">
-                                <div class="col">
-                                    <div class="collapse multi-collapse" id="multiCollapseExample1">
-                                        <div class="card card-body">
-                                            Some placeholder content for the first collapse component of this
-                                            multi-collapse example. This panel is hidden by default but revealed when
-                                            the user activates the relevant trigger.
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col">
-                                    <div class="collapse multi-collapse" id="multiCollapseExample2">
-                                        <div class="card card-body">
-                                            Some placeholder content for the second collapse component of this
-                                            multi-collapse example. This panel is hidden by default but revealed when
-                                            the user activates the relevant trigger.
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                                <div class="row card col-8 rounded-3 p-5 h-100 mr-2 shadow-sm">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" placeholder="Введите имя" class="form-control" id="exampleInputName">
                         </div>
-                    </div>
+                        <div class="mb-3">
+                            <input type="email" placeholder="Ввведите email" class="form-control"
+                                   id="exampleInputEmail1"
+                                   aria-describedby="emailHelp">
+                        </div>
+                        <button type="submit" class="btn w-100 btn-lg btn-primary">Отправить</button>
+                    </form>
                 </div>
             </div>
+             <div class="row text-center card rounded-3 mx-auto p-3 ">
+                <div class="col-12">
+                    <p class="d-inline-flex gap-1">
+
+                        <a class="btn btn-primary btn-lg" data-bs-toggle="collapse" href="#collapseExample"
+                           role="button"
+                           aria-expanded="false"
+                           aria-controls="collapseExample">
+                            Как купить?
+                        </a>
+                        <a class="btn btn-primary btn-lg" data-bs-toggle="collapse" href="#collapse" role="button"
+                           aria-expanded="false"
+                           aria-controls="collapseExample">
+                            Как доставить?
+                        </a>
+                        <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collap"
+                                aria-expanded="false" aria-controls="collapseExample">
+                            Какая гарантия?
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            Вы можете приобрести товар по адресу Варшавское шоссе, 140
+                            Чертаново Центральное, Москва, 117519, Торгово - развлекательный центр "COLUMBUS"
+                            <br>Или заказать товар прямо из дома!
+                        </div>
+                    </div>
+                    <div class="collapse" id="collapse">
+                        <div class="card card-body">
+                            Доставку осуществляем на следующий день, после оформления заказа, до ближайшего пункта выдачи заказов
+                        </div>
+                    </div>
+                    <div class="collapse" id="collap">
+                        <div class="card card-body">
+                            Если товар повредился или не пришёл к Вам, мы компенсируем убытки!
+                        </div>
+                    </div>
+                </div>
+             </div>
+            <div class="table card p-2 rounded-3 my-4">
+                <div class="col-12">
+                    <table class="table caption-top">
+                        <thead>
+                        <tr>
+                            <th scope="col">номер</th>
+                            <th scope="col">название товара</th>
+                            <th scope="col">цена за штуку</th>
+                            <th scope="col">количество</th>
+                            <th scope="col">итоговая сумма</th>
+                            <th scope="col">статус заказа</th>
+                        </tr>
+                        </thead>
+
+                        <tbody>
+
+                        <tr class="table-warning">
+
+                            <th scope="row">1</th>
+                            <td>Шорты</td>
+                            <td>300 руб.</td>
+                            <td>2</td>
+                            <td>600</td>
+                            <td>В Пути</td>
+                        </tr>
+                        <tr class="table-success">
+                            <th scope="row">2</th>
+                            <td>Кофта</td>
+                            <td>700 руб.</td>
+                            <td>1</td>
+                            <td>700</td>
+                            <td>Готов к выдаче</td>
+                        </tr>
+
+                            <tr class="table-info">
+                                <th scope="row">3</th>
+                                <td>Футболка</td>
+                                <td>100 руб.</td>
+                                <td>1</td>
+                                <td>100</td>
+                                <td>Ждем оплаты</td>
+                            </tr>
+
+                        <tr class="table-danger">
+                            <th scope="row">3</th>
+                            <td>Носки</td>
+                            <td>4000 долларов</td>
+                            <td>1</td>
+                            <td>4000</td>
+                            <td>Отмена товара</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+
         </main>
 
     </div>
